@@ -166,6 +166,10 @@ h4{
   float: left;
   padding: 0 75px;
 }
+
+#distance{
+    margin-top: 50px;
+}
 </style>
         
     </head>
@@ -195,6 +199,8 @@ h4{
 
             <h2>Wine Tester</h2>
 
+            <section>
+
          <div class="loorem">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
               culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
@@ -205,8 +211,7 @@ h4{
             </p>
             <hr/>
         </div>     
-        
-        <section class="row">
+        <div class="row">
         <div class="col-6">
             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
                 culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
@@ -221,8 +226,70 @@ h4{
         <div class="col-6">
           <img  src="image/maja.jpg" height="300px" width="300px">
           </div>
-        </section>
+        </div>
+
+            <h2>Wine Tester</h2>
+
+            <div class="loorem">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
+                 culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
+                 maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
+                 repellat ipsum, quia laborum animi aut quam soluta cumque.
    
+               </p>
+               <hr/>
+
+               <div class="row" id="distance">
+                    <div class="col-6">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
+                            culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
+                            maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
+                            repellat ipsum, quia laborum animi aut quam soluta cumque.
+              
+                          </p>
+                              <a href="#" class="btn btn-primary blutt" style="background-color:#A84059;">Get Started</a>
+                    </div>
+            
+                    <div class="col-6">
+                      <img  src="image/maja.jpg" height="300px" width="300px">
+                      </div>
+                    </div>
+           </div>  
+
+
+           <h2>Wine Tester</h2>
+
+           <div class="loorem">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
+                culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
+                maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
+                repellat ipsum, quia laborum animi aut quam soluta cumque.
+  
+              </p>
+              <hr/>
+
+              <div class="row" id="distance">
+                   <div class="col-6">
+                       <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
+                           culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
+                           maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                           Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
+                           repellat ipsum, quia laborum animi aut quam soluta cumque.
+             
+                         </p>
+                             <a href="#" class="btn btn-primary blutt" style="background-color:#A84059;">Get Started</a>
+                   </div>
+           
+                   <div class="col-6">
+                     <img  src="image/maja.jpg" height="300px" width="300px">
+                     </div>
+                   </div>
+          </div>  
+   
+</section>
         
     </body>
 </html>
