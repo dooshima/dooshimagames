@@ -15,6 +15,7 @@ Route::get('/homee', function () {
     return view('welcome');
 });
 
+// Route::get('/log', 'authenticateController@signup')-name('log');
 
 Route::get('/', function () {
     return view('index');
@@ -25,4 +26,13 @@ Route::get('/index', 'HomeController@index')->name('index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/logins', 'joinUsController@show');
+
+Route::post('sign', 'joinUsController@store');
+
+ Route::get('/sign', 'joinUsController@create');
+// Route::get('/', 'joinUsController@index');
+
+
+
