@@ -34,7 +34,10 @@
         
     <form method="POST" action="sign">
     {{ csrf_field() }}
-                <div class="form-group space">
+            <div class="form-group space">
+              <input type="name" class="form-control round" id="name" name="name" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+            <div class="form-group space">
                   <input type="email" class="form-control round" id="email" name="email" aria-describedby="emailHelp" placeholder="Email">
                 </div>
                 <div class="form-group space">

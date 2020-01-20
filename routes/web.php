@@ -32,7 +32,7 @@ Route::get('/logins', 'joinUsController@show');
 Route::post('sign', 'joinUsController@store');
 
  Route::get('/sign', 'joinUsController@create');
-// Route::get('/', 'joinUsController@index');
+ Route::get('/shop', 'shopWineController@index');
 
 
 

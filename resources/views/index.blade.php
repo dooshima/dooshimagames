@@ -119,7 +119,7 @@
                            repellat ipsum, quia laborum animi aut quam soluta cumque.
              
                          </p>
-                             <a href="#" class="btn btn-primary blutt" style="background-color:#A84059;">Learn More</a>
+                             <a href="shop" class="btn btn-primary blutt" style="background-color:#A84059;">Learn More</a>
                    </div>
            
                    <div class="col-4">
