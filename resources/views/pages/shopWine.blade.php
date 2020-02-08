@@ -18,6 +18,11 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}"/>
     <script  src="{{ asset('js/app.js')}}"></script>
     
+    <style>
+           .main{
+            background-color:white;
+           } 
+    </style> 
 
     </head>
  <body style=" 
@@ -26,8 +31,28 @@
             color: #727272;">
             
  @include('partials.header')
-    <div>
-        m  
+  
+
+ @include('partials.sidebar')
+
+ <div class="main">
+        <h2>Sidenav Example</h2>    <br/>
+
+    @include('partials.contain')
+    <br/>
+    @include('partials.contain')
+    <br/>
+    @include('partials.contain')
+    <br/>
+    @include('partials.contain')
+    <br/>
+    @include('partials.contain')
+    <br/>
+
+   </div>
+
+    </div>
+         
 
     </div>
     @include('partials.footer')

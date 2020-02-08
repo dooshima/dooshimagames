@@ -106,7 +106,6 @@
                 maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
                 repellat ipsum, quia laborum animi aut quam soluta cumque.
-  
               </p>
               <hr/>
            </div>
