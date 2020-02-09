@@ -36,4 +36,9 @@ Route::post('sign', 'joinUsController@store');
 
  Route::get('cart', 'shopWineController@cart')->name('cart');
 
+ Route::post('/pay', 'PaymentController@redirectToGateway')->name('pay'); 
+ Route::any('paystacks/callback', 'Api\Auth\PaystackController@handleGatewayCallback')->name('payment.callback');
 
+ Route::get('/paystack', function(){
+    return view('pages.paystack');
+});

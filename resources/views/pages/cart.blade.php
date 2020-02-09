@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-   <h1> Cart</h1> 
+   <h1>adding to Cart</h1> 
+<button  class="btn btn-warning" type="submit"> Submit </button>
 </body>
 </html>
