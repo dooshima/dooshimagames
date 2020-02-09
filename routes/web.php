@@ -34,5 +34,6 @@ Route::post('sign', 'joinUsController@store');
  Route::get('/sign', 'joinUsController@create');
  Route::get('shop', 'shopWineController@index')->name('shop');
 
+ Route::get('cart', 'shopWineController@cart')->name('cart');
 
 

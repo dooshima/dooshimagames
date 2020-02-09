@@ -10,4 +10,8 @@ class shopWineController extends Controller
         return view('pages/shopWine');
 
     } 
+
+    public function cart(){
+        return view('pages/cart');
+    }
 }
