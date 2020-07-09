@@ -31,9 +31,14 @@ Route::get('/logins', 'joinUsController@show');
 
 Route::post('sign', 'joinUsController@store');
 
- Route::get('/sign', 'joinUsController@create');
- Route::get('shop', 'shopWineController@index')->name('shop');
+Route::get('/sign', 'joinUsController@create');
+Route::get('shop', 'shopWineController@index')->name('shop');
 
- Route::get('cart', 'shopWineController@cart')->name('cart');
+Route::get('cart', 'shopWineController@cart')->name('cart');
 
+Route::post('/pay', 'PaymentController@redirectToGateway')->name('pay'); 
+Route::any('paystacks/callback', 'Api\Auth\PaystackController@handleGatewayCallback')->name('payment.callback');
 
+Route::get('paystack', function(){
+    return view('pages.paystack');
+});

@@ -14,4 +14,8 @@ class shopWineController extends Controller
     public function cart(){
         return view('pages/cart');
     }
+
+    public function addToCart(Request $request){
+
+    }
 }

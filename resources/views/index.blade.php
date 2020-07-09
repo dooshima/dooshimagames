@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Winery</title>
+        <title>dooshimagames</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -20,115 +20,76 @@
     
 
     </head>
- <body style="background-image: url(image/alcoholic.jpg); 
-            width:100%;
-            background-color:#f5f5f5;
-            color: #727272;
-            background-repeat: no-repeat;">
+ <body>
             
  @include('partials.header')
-<div class="wrapper">
-        <a href="#" class="btn btn-primary butt" id="bott" style="background-color:#A84059;">Get Started</a>
+ <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+  <div class="col-md-6 px-0">
+    <h1 class="display-4 font-italic">DooshimaGames</h1>
+    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+    <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+  </div>
+</div>
+
+
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">2D Games</strong>
+        <h3 class="mb-0">Bubble Blast</h3>
+        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Download</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      </div>
     </div>
-     <section>
-        <div class="one">
-            <h2 class="htwo">Wine Tester</h2>
+  </div>
+  <div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Puzzle</strong>
+        <h3 class="mb-0">I am Something</h3>
+        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Download</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      </div>
+    </div>
+  </div>
+</div>
 
-         <div class="loorem">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-              culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-              maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-              repellat ipsum, quia laborum animi aut quam soluta cumque.
-
-            </p>
-            <hr/>
-        </div>     
-        <div class="row distance">
-        <div class="col-8">
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-                culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-                maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-                repellat ipsum, quia laborum animi aut quam soluta cumque.
-  
-              </p>
-                  <a href="#" class="btn btn-primary blutt" style="background-color:#A84059;">Learn More</a>
-        </div>
-
-        <div class="col-4">
-          <img  src="image/celebration.jpg" height="300px" width="300px">
-          </div>
-        </div>
-        {{-- <br/>  <br/> 
-        <hr/>
-        --}}
-       
-        <div class="two">
-            <h2>Wine Makers</h2>
-
-            <div class="loorem">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-                 culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-                 maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                 Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-                 repellat ipsum, quia laborum animi aut quam soluta cumque.
-   
-               </p>
-               <hr/>
-            </div>
-               <div class="row distance">
-                    <div class="col-8">
-                        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-                            culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-                            maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-                            repellat ipsum, quia laborum animi aut quam soluta cumque.
-              
-                          </p>
-                              <a href="#" class="btn btn-primary blutt" style="background-color:#A84059;">Learn More</a>
-                    </div>
-            
-                    <div class="col-4">
-                      <img  src="image/maja.jpg" height="300px" width="300px">
-                      </div>
-                    </div>
-            </div>
-           </div>  
-
-           <div class="three">
-
-           <h2>Buy Your Wine </h2>
-
-           <div class="loorem">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-                culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-                maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-                repellat ipsum, quia laborum animi aut quam soluta cumque.
-              </p>
-              <hr/>
-           </div>
-              <div class="row distance">
-                   <div class="col-8">
-                       <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id repudiandae 
-                           culpa dolor fugiat veniam sed, odit aliquid error quidem optio corporis neque iusto 
-                           maiores tempora sequi minima atque dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                           Nihil consectetur nam adipisci libero velit inventore possimus eius sint qui asperiores voluptatibus
-                           repellat ipsum, quia laborum animi aut quam soluta cumque.
-             
-                         </p>
-                             <a href="shop" class="btn btn-primary blutt" style="background-color:#A84059;">Learn More</a>
-                   </div>
-           
-                   <div class="col-4">
-                     <img  src="image/winee.png" height="300px" width="300px">
-                     </div>
-                   </div>
-          </div>  
-
-     
-@include('partials.footer')
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">3D Adventure </strong>
+        <h3 class="mb-0">Zein Runner</h3>
+        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Download</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">3D Car Race </strong>
+        <h3 class="mb-0">Lets Drive</h3>
+        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="stretched-link">Download</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
