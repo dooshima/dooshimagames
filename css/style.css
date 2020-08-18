@@ -1,3 +1,4 @@
+
 .jumbo{
   background: #16222A;
   background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
@@ -6,6 +7,10 @@
 }
 .paddy{
   margin-left: 30px;
+}
+
+.games{
+  text-align: center;
 }
 
 
